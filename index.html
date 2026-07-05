@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahmed Sultan — Front-end developer crafting modern, animated, and responsive web experiences." />
+  <title>Ahmed Sultan · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <nav class="topbar" aria-label="Primary navigation">
+    <a href="index.html" class="brand"><i class="fa-solid fa-bolt"></i> Ahmed<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="projects.html" class="nav-link">Projects</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-text reveal">
+        <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> Front-end developer · UI/UX focused</span>
+        <h1>I build <span class="grad-text">fast, polished</span> web experiences that feel effortless.</h1>
+        <p>I blend thoughtful UI, performance, and modern interactions to turn ideas into smooth digital products.</p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i> Explore projects</a>
+          <a href="contact.html" class="btn btn-ghost"><i class="fa-solid fa-paper-plane"></i> Get in touch</a>
+        </div>
+        <div class="pill-row">
+          <span class="pill"><i class="fa-solid fa-bolt"></i> Fast & responsive</span>
+          <span class="pill"><i class="fa-solid fa-paintbrush"></i> Modern UI</span>
+          <span class="pill"><i class="fa-solid fa-shield-halved"></i> Accessible</span>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="avatar-ring">AS</div>
+        <div class="stat-grid">
+          <div class="stat"><strong>3+</strong><span>Years building</span></div>
+          <div class="stat"><strong>15+</strong><span>Projects shipped</span></div>
+          <div class="stat"><strong>100%</strong><span>Clean UX</span></div>
+        </div>
+        <h2>Designing for clarity & momentum.</h2>
+        <p>I care about crisp interactions, accessibility, and frictionless flows that guide people naturally.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <h2>What <span>I bring</span></h2>
+        <p>A modern toolkit focused on usability, speed, and delightful details.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card tilt">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Responsive by default</h3>
+          <p>Layouts adapt smoothly across phones, tablets, and desktops without sacrificing elegance.</p>
+        </article>
+        <article class="card tilt">
+          <i class="fa-solid fa-rocket"></i>
+          <h3>Performance-minded</h3>
+          <p>Lightweight interactions and clear structure keep the experience quick and polished.</p>
+        </article>
+        <article class="card tilt">
+          <i class="fa-solid fa-universal-access"></i>
+          <h3>Accessible experience</h3>
+          <p>Readable contrast, keyboard-friendly controls, and simple flows support every user.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Ahmed Sultan · Built with care for modern web experiences.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
